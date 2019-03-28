@@ -40,7 +40,7 @@ public class RestControllerClima {
     
     
     
-    @RequestMapping(method = RequestMethod.GET,value="/{ciudad}")
+    @RequestMapping(method = RequestMethod.GET,value="/cl/{ciudad}")
     public ResponseEntity<?> getConsultCity(@PathVariable("ciudad") String ciudad){
         try{
 

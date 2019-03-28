@@ -30,8 +30,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class HttpConnection extends Thread{
     //API key 
+    
     @Autowired
-    private Provider pv;
+    Providerr pv;
+    
+    
     private static final String USER_AGENT = "Mozilla/5.0";
     private String url;
     private String result;

@@ -13,23 +13,15 @@ import org.springframework.stereotype.Service;
  * @author 2098325
  */
 @Service
-public class AlphaVantage implements Provider{
-
-    public String getUrl(String nombreCiudad, String año) {
+public class AlphaVantage implements Providerr{
+    @Override
+    public String getClima(String nombreCiudad) {
         //http://api.openweathermap.org/data/2.5/weather?q=Cali&appid=80c9ba49cb19fed4e056de5cf6710290
         
-            String r="http://api.openweathermap.org/data/2.5/weather?q="+nombreCiudad+"&appid=80c9ba49cb19fed4e056de5cf6710290";       
+            String r="http://api.openweathermap.org/data/2.5/weather?q="+nombreCiudad+"&appid=80c9ba49cb19fed4e056de5cf6710290"; 
+            System.out.println("miremos q nos trae pitas"+r);
         return r;
     }
-
-
-
-    @Override
-    public Object invoke(Object t) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-
 
 
 }

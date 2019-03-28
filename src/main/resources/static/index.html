@@ -11,6 +11,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        
+            <script type="text/javascript">
+     function anular(e) {
+          tecla = (document.all) ? e.keyCode : e.which;
+          return (tecla != 13);
+     }
+    </script>
     </head>
     <body class="is-preload">
 
@@ -35,14 +42,15 @@
                     <p>Aqui puede obtener el clima de cualquier ciudad del mundo que se 
                             encuentre en el sistema.
                         
-                    <form class="form-inline">
+                    <form class="form-inline"onkeypress="return anular(event)"> >
                         <div class="form-group">
                             <label for="name">Escriba el nombre de la ciudad a buscar</label>
                             <input type="text" id="ciudad" class="form-control" placeholder="Name of city...">
+                            <button id="sendNum" type="button" onclick="mirar.getInfoCity()">Buscar</button>
                         </div>
                     <ul class="actions">
                         
-                        <button onclick="mirar.getInfoCity()">Buscar</button>
+                        
                     </ul>
 
                     </form>

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * @author 2098325
  */
 @Service
-public interface Provider {
+public interface Providerr {
     
     public String getClima(String nombreCiudad);
     
