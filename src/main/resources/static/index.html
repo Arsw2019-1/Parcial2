@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--
+        Hyperspace by HTML5 UP
+        html5up.net | @ajlkn
+        Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Clima</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+
+        <!-- Sidebar -->
+        <section id="sidebar">
+            <div class="inner">
+                <nav>
+                    <ul>
+                        <li><a href="#intro">Bienvenido</a></li>
+                        <li><a href="#one">¿Como se obtiene el clima?</a></li>
+                        <li><a href="#three">¿COmo usar la pagina?</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Intro -->
+            <section id="intro" class="wrapper style1 fullscreen fade-up">
+                <div class="inner">
+                    <h1>Bienvenido</h1>
+                    <p>Aqui puede obtener el clima de cualquier ciudad del mundo que se 
+                            encuentre en el sistema.
+                        
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="name">Escriba el nombre de la ciudad a buscar</label>
+                            <input type="text" id="ciudad" class="form-control" placeholder="Name of city...">
+                        </div>
+                    <ul class="actions">
+                        
+                        <button onclick="mirar.getInfoCity()">Buscar</button>
+                    </ul>
+
+                    </form>
+                </div>
+            </section>
+            <!-- One -->
+            <section id="one" class="wrapper style2 spotlights">
+                <section>
+                    <div class="content">
+                        <div class="inner">
+                            <h2>Ques es CartMode</h2>
+                            <p> CartMode es un juego de habilidad y destreza que pondran aprueba su conocimiento para 
+                                emparejar la mayor cantidad de cartas en el menor tiempo posble. Ademas de responder una 
+                                pregunta antes de iniciar cada nivel.
+
+                                Podra jugar contra otros jugadores y ver quien resulta obtener el mayor puntaje de entre todos.
+                                <br>
+                                <br>
+                                ¡Buena Suerte!
+                                <br>
+                                <br>
+                                Juego pensado para entre 2 hasta 4 jugadores.
+
+                            </p>
+                            <ul class="actions">
+                                <li><a href="JuegoAnteSala.html" class="button">Jugar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- Three -->
+            <section id="three" class="wrapper style1 fade-up">
+                <div class="inner">
+                    <div class="split style1">
+                        <section>
+                            <ul class="contact">
+                                <li>
+                                    <h3>Email</h3>
+                                    <a href="#">cesar.lanos@mail.escuelaing.edu.co</a>
+                                </li>
+                                <li>
+                                    <h3>Social</h3>
+                                    <ul class="icons">
+                                        <li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+                                        <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+                                        <li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
+                                        <li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+                                        <li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Footer -->
+        <footer id="footer" class="wrapper style1-alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- Scripts -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="/jquery.min.js"></script>
+        <script src="/jquery.scrollex.min.js"></script>
+        <script src="/jquery.scrolly.min.js"></script>
+        <script src="/browser.min.js"></script>
+        <script src="/breakpoints.min.js"></script>
+        <script src="/util.js"></script>
+        <script src="/main.js"></script>
+        <script src="/apiCity.js"></script>
+    </body>
+</html>
