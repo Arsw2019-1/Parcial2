@@ -126,6 +126,10 @@ document.getElementById("demo").innerHTML = "name: " + obj.name + ", age: " + ob
 
 * Código de página con Mapa embebido [(Ver archivo)](index.html)
     
+hEROKU
+
+https://lanos-arsw-t2.herokuapp.com/
 
 
-Mi NOTA ESPÉRADA 32
+
+Mi NOTA ESPÉRADA 34
